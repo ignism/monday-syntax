@@ -2,6 +2,11 @@
 
 A fresh and dark syntax theme.
 
-![screenshot js](http://i.imgur.com/SLFkGLW.png)
-![screenshot css](http://i.imgur.com/6HkhW5w.png)
-![screenshot html](http://i.imgur.com/ms70MCX.png)
+####JavaScript
+![screenshot js](http://i.imgur.com/F6p82w5.png)
+
+####CSS
+![screenshot css](http://i.imgur.com/qaAIIez.png)
+
+####HTML
+![screenshot html](http://i.imgur.com/PUzTUOL.png)
