@@ -49,7 +49,7 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
 }
 
 atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
-  background-color: #49483E;
+  background-color: @syntax-selection-color;
 }
 
 .comment {
@@ -101,7 +101,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .entity.name.function {
-  color: @light-pink;
+  color: @pink;
 }
 
 .variable.parameter {
@@ -166,7 +166,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .storage.modifier.java {
-  color: @pink;
+  color: @light-pink;
 }
 
 .entity.name.type.class.java {
