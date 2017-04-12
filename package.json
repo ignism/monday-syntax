@@ -1,15 +1,15 @@
 {
-  "name": "monday-syntax",
+  "name": "montag-syntax",
   "theme": "syntax",
-  "version": "0.1.4",
-  "description": "A fresh and dark syntax theme.",
+  "version": "2.0.0",
+  "description": "A fresh and dark syntax theme forked from Ignism's Monday syntax theme.",
   "keywords": [
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/ignism/monday-syntax",
+  "repository": "https://github.com/evnpwr/monday-syntax",
   "license": "MIT",
   "engines": {
-    "atom": ">=0.174.0 <2.0.0"
+    "atom": ">=1.13.0 <2.0.0"
   }
 }
