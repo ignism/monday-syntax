@@ -2,5 +2,5 @@
 * Every feature added
 * Every bug fixed
 
-## 0.1.1 - Update Selectors
+## 0.1.5 - Update Selectors
 * Deprecated selectors updated
