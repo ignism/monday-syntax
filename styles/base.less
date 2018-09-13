@@ -31,24 +31,24 @@ atom-text-editor .invisible-character, atom-text-editor.invisible-character {
   color: @syntax-invisible-character-color;
 }
 
-atom-text-editor .search-results .marker .region, atom-text-editor.search-results .marker .region {
+atom-text-editor .search-results .syntax--marker .region, atom-text-editor.search-results .syntax--marker .region {
   background-color: transparent;
   border: @syntax-result-marker-color;
 }
 
-atom-text-editor .search-results .marker.current-result .region, atom-text-editor.search-results .marker.current-result .region {
+atom-text-editor .search-results .syntax--marker.current-result .region, atom-text-editor.search-results .syntax--marker.current-result .region {
   border: @syntax-result-marker-color-selected;
 }
 
-atom-text-editor.is-focused .cursor, :host(.is-focused) .cursor {
+atom-text-editor.is-focused .cursor,atom-text-editor .cursor {
   border-color: @syntax-cursor-color;
 }
 
-atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .region {
+atom-text-editor.is-focused .selection .region,atom-text-editor .selection .region {
   background-color: @syntax-selection-color;
 }
 
-atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line,atom-text-editor .line-number.cursor-line-no-selection,atom-text-editor .line.cursor-line {
   background-color: @syntax-selection-color;
 }
 
@@ -64,11 +64,11 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: @green;
 }
 
-.syntax--constant.language {
+.syntax--constant.syntax--language {
   color: @purple;
 }
 
-.syntax--constant.character, .syntax--constant.syntax--other {
+.syntax--constant.syntax--character, .syntax--constant.syntax--other {
   color: @purple;
 }
 
@@ -161,7 +161,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: @blue;
 }
 
-.syntax--storage.syntax--modifier.import.syntax--java {
+.syntax--storage.syntax--modifier.syntax--import.syntax--java {
   color: @light-blue;
 }
 
