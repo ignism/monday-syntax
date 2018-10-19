@@ -5,11 +5,11 @@ I made the switch to VSCode, this theme is no longer under development. I'll lea
 
 A fresh and dark syntax theme.
 
-####JavaScript
+#### JavaScript
 ![screenshot js](http://i.imgur.com/F6p82w5.png)
 
-####CSS
+#### CSS
 ![screenshot css](http://i.imgur.com/qaAIIez.png)
 
-####HTML
+#### HTML
 ![screenshot html](http://i.imgur.com/PUzTUOL.png)
