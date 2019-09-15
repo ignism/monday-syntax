@@ -1,203 +1,203 @@
 @import "syntax-variables";
 
-atom-text-editor, :host {
+atom-text-editor, atom-text-editor{
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 }
 
-atom-text-editor .gutter, :host .gutter {
+atom-text-editor .gutter, atom-text-editor.gutter {
   background-color: @syntax-gutter-background-color;
   color: @syntax-gutter-text-color;
 }
 
-atom-text-editor .gutter .line-number.cursor-line, :host .gutter .line-number.cursor-line {
+atom-text-editor .gutter .line-number.cursor-line, atom-text-editor.gutter .line-number.cursor-line {
   background-color: @syntax-gutter-background-color-selected;
   color: @syntax-gutter-text-color-selected;
 }
 
-atom-text-editor .gutter .line-number.cursor-line-no-selection, :host .gutter .line-number.cursor-line-no-selection {
+atom-text-editor .gutter .line-number.cursor-line-no-selection, atom-text-editor.gutter .line-number.cursor-line-no-selection {
   color: @syntax-gutter-text-color-selected;
 }
 
-atom-text-editor .wrap-guide, :host .wrap-guide {
+atom-text-editor .wrap-guide, atom-text-editor.wrap-guide {
   color: @syntax-wrap-guide-color;
 }
 
-atom-text-editor .indent-guide, :host .indent-guide {
+atom-text-editor .indent-guide, atom-text-editor.indent-guide {
   color: @syntax-indent-guide-color;
 }
 
-atom-text-editor .invisible-character, :host .invisible-character {
+atom-text-editor .invisible-character, atom-text-editor.invisible-character {
   color: @syntax-invisible-character-color;
 }
 
-atom-text-editor .search-results .marker .region, :host .search-results .marker .region {
+atom-text-editor .search-results .syntax--marker .region, atom-text-editor.search-results .syntax--marker .region {
   background-color: transparent;
   border: @syntax-result-marker-color;
 }
 
-atom-text-editor .search-results .marker.current-result .region, :host .search-results .marker.current-result .region {
+atom-text-editor .search-results .syntax--marker.current-result .region, atom-text-editor.search-results .syntax--marker.current-result .region {
   border: @syntax-result-marker-color-selected;
 }
 
-atom-text-editor.is-focused .cursor, :host(.is-focused) .cursor {
+atom-text-editor.is-focused .cursor,atom-text-editor .cursor {
   border-color: @syntax-cursor-color;
 }
 
-atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .region {
+atom-text-editor.is-focused .selection .region,atom-text-editor .selection .region {
   background-color: @syntax-selection-color;
 }
 
-atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line,atom-text-editor .line-number.cursor-line-no-selection,atom-text-editor .line.cursor-line {
   background-color: @syntax-selection-color;
 }
 
-.comment {
+.syntax--comment {
   color: @gray;
 }
 
-.string {
+.syntax--string {
   color: @light-green;
 }
 
-.constant.numeric {
+.syntax--constant.syntax--numeric {
   color: @green;
 }
 
-.constant.language {
+.syntax--constant.syntax--language {
   color: @purple;
 }
 
-.constant.character, .constant.other {
+.syntax--constant.syntax--character, .syntax--constant.syntax--other {
   color: @purple;
 }
 
-.variable {
+.syntax--variable {
   color: @light-purple;
 }
 
-.keyword {
+.syntax--keyword {
   color: @yellow;
 }
 
-.storage {
+.syntax--storage {
   color: @light-blue;
 }
 
-.storage.type {
+.syntax--storage.syntax--type {
   font-style: italic;
   color: @blue;
 }
 
-.entity.name.class {
+.syntax--entity.syntax--name.syntax--class {
   text-decoration: underline;
   color: @light-yellow;
 }
 
-.entity.other.inherited-class {
+.syntax--entity.syntax--other.syntax--inherited-class {
   font-style: italic;
   text-decoration: underline;
   color: @light-yellow;
 }
 
-.entity.name.function {
+.syntax--entity.syntax--name.syntax--function {
   color: @pink;
 }
 
-.variable.parameter {
+.syntax--variable.syntax--parameter {
   font-style: italic;
   color: @light-purple;
 }
 
-.entity.name.tag {
+.syntax--entity.syntax--name.syntax--tag {
   color: @yellow;
 }
 
-.entity.other.attribute-name {
+.syntax--entity.syntax--other.syntax--attribute-name {
   color: @blue;
 }
 
-.support.function {
+.syntax--support.syntax--function {
   color: @light-blue;
 }
 
-.support.constant {
+.syntax--support.syntax--constant {
   color: @purple;
 }
 
-.support.type, .support.class {
+.syntax--support.syntax--type, .syntax--support.syntax--class {
   color: @light-yellow;
 }
 
-.support.other.variable {
+.syntax--support.syntax--other.syntax--variable {
   color: @light-purple;
 }
 
-.source.ruby {
+.syntax--source.syntax--ruby {
   color: rgba(197, 200, 198, 1);
 }
 
-.constant.other.symbol.ruby.19syntax {
+.syntax--constant.syntax--other.syntax--symbol.syntax--ruby.19syntax {
   color: rgba(153, 204, 153, 1);
 }
 
-.variable.other.constant.ruby {
+.syntax--variable.syntax--other.syntax--constant.syntax--ruby {
   color: rgba(198, 197, 226, 1);
 }
 
-.entity.name.type.class.ruby {
+.syntax--entity.syntax--name.syntax--type.syntax--class.syntax--ruby {
   color: @light-yellow;
 }
 
-.entity.name.type.module.ruby {
+.syntax--entity.syntax--name.syntax--type.syntax--module.syntax--ruby {
   color: @light-yellow;
 }
 
-.source.ruby.embedded.source {
+.syntax--source.syntax--ruby.syntax--embedded.syntax--source {
   color: rgba(237, 237, 237, 1);
 }
 
-.source.ruby.embedded.source .punctuation.section.embedded.ruby {
+.syntax--source.syntax--ruby.syntax--embedded.syntax--source .syntax--punctuation.syntax--section.syntax--embedded.syntax--ruby {
   color: @blue;
 }
 
-.storage.modifier.import.java {
+.syntax--storage.syntax--modifier.syntax--import.syntax--java {
   color: @light-blue;
 }
 
-.storage.modifier.java {
+.syntax--storage.syntax--modifier.syntax--java {
   color: @light-pink;
 }
 
-.entity.name.type.class.java {
+.syntax--entity.syntax--name.syntax--type.syntax--class.syntax--java {
   text-decoration: underline;
   color: @light-yellow;
 }
 
-.storage.type.primitive.array.java {
+.syntax--storage.syntax--type.syntax--primitive.syntax--array.syntax--java {
   color: @light-blue;
 }
 
-.storage.type.object.array.java {
+.syntax--storage.syntax--type.syntax--object.syntax--array.syntax--java {
   color: @light-blue;
 }
 
-.constant.numeric.java {
+.syntax--constant.syntax--numeric.syntax--java {
   color: @green;
 }
 
-.storage.type.java {
+.syntax--storage.syntax--type.syntax--java {
   color: @blue;
 }
 
-.keyword.operator.dereference.java {
+.syntax--keyword.syntax--operator.syntax--dereference.syntax--java {
   color: @green;
 }
 
-.markup.inserted.diff, .meta.diff.header.to-file {
+.syntax--markup.syntax--inserted.syntax--diff, .syntax--meta.syntax--diff.syntax--header.syntax--to-file {
   color: @green;
 }
 
-.markup.deleted.diff, .meta.diff.header.from-file {
+.syntax--markup.syntax--deleted.syntax--diff, .syntax--meta.syntax--diff.syntax--header.syntax--from-file {
   color: @pink;
 }
